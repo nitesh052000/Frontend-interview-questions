@@ -4,6 +4,8 @@ const useThrottle = (value, delay) => {
   console.log("value", value, delay);
   const [throttledvalue, setThrottledValue] = useState(value);
 
+  console.log("throttled value", throttledvalue);
+
   const lastExecuted = useRef(Date.now());
 
   useEffect(() => {
