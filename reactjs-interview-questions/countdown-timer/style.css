@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 85vh;
+   gap: 20px;
+}
+
+.conatainer_title{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.container_labels,.container_inputs,.container_btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_labels--label{
+      text-align: center;
+      font-size: 30px;
+      padding: 5px 10px;
+      width: 20%;
+}
+
+.container_inputs--time{
+     justify-self: center;
+     align-items: center;
+     font-size: 50px;
+     border: none;
+     width: 90px;
+     height: 90px;
+}
+
+.container_inputs--colons {
+  justify-self: center;
+  align-self: center;
+  font-size: 30px;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.container__btns {
+  margin-top: 20px;
+}
+
+
+.btn{
+width: 48%;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+input {
+  text-align: center;
+  outline: none;
+}
+
+.start {
+  background-color: green;
+}
+
+.stop {
+  display: none;
+  background-color: orange;
+}
+
+.reset {
+  background-color: orangered;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

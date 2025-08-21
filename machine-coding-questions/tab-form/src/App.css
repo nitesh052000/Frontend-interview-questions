@@ -1,0 +1,33 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.heading{
+  padding: 5px;
+  border: 1px solid   black;
+  cursor: pointer;
+}
+
+.active-component{
+  display: flex;
+  border: 1px solid black;
+  height: 200px;
+  padding: 10px;
+  width: 400px;
+}
+.form-data{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
